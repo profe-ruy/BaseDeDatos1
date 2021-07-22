@@ -7,7 +7,6 @@ Finalmente borrar la base de datos con comandos de borrado
 */
 
 
-
 CREATE DATABASE Sesion02
 ON
 (NAME = Sesion02_Data,
@@ -25,7 +24,10 @@ SIZE = 10, MAXSIZE = 70, FILEGROWTH = 5
 )
 GO
 
+
+sp_helpdb Sesion02
 use Sesion02
 
-use master
- drop database Sesion02
+use master 
+
+drop database Sesion02
