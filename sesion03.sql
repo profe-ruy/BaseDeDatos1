@@ -1,6 +1,6 @@
 /*
 Ejemplo 3 : 
-Crear nuevamente la base de datos “Sesion03” utilizando comandos de creación
+Crear nuevamente la base de datos Sesion03 utilizando comandos de creacion
 Crear la tabla usuarios con las siguientes columnas
 ID				|		entero
 DNI				|		cadena(8)
